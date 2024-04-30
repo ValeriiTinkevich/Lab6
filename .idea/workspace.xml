@@ -5,72 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="473ae2ca-1144-4d8e-b31c-1474db1b31cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/client/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/client/utility/ProcessingResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/client/utility/SpaceMarineInputManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/client/utility/UserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/data/Chapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/data/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/data/MeleeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/data/SpaceMarine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/data/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/ClosingSocketException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/CommandUsageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/ConnectionErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/EmptyArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/IncorrectInputInScriptException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/MustNotBeEmptyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/NotInDeclaredLimitsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/NotUniqueIdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/OpeningServerSocketException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/ScriptRecursionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/WrongAmountOfArgumentsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/exceptions/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/interaction/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/interaction/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/interaction/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/common/utility/Outputter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/AbstractCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/AddElementCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/AddIfMaxCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/ExecuteScriptCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/FilterByChapterCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/FilterLessThanHealthCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/HelpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/InfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/PrintUniqueHeartCountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/RemoveAtCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/RemoveByIdCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/RemoveGreaterCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/ShowCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/UpdateByIdCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/commands/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/utility/CollectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/utility/CommandExecuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/utility/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/utility/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/server/utility/ResponseOutputter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/server/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/server/data.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +73,7 @@
       <recent name="common.commands" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.server.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="client.App" />
       <module name="lab6.client.main" />
