@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-01T08:45:39.777458800Z</date>
+  <millis>1714553139777</millis>
+  <nanos>458800</nanos>
+  <sequence>0</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.utility.CollectionManager</class>
+  <method>loadCollection</method>
+  <thread>1</thread>
+  <message>Collection loaded successfully</message>
+</record>
+<record>
+  <date>2024-05-01T08:45:39.868064200Z</date>
+  <millis>1714553139868</millis>
+  <nanos>64200</nanos>
+  <sequence>1</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>openServerSocket</method>
+  <thread>1</thread>
+  <message>Starting the server...</message>
+</record>
+<record>
+  <date>2024-05-01T08:45:39.880254700Z</date>
+  <millis>1714553139880</millis>
+  <nanos>254700</nanos>
+  <sequence>2</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>openServerSocket</method>
+  <thread>1</thread>
+  <message>The server has been successfully started.</message>
+</record>
+<record>
+  <date>2024-05-01T08:45:39.888534300Z</date>
+  <millis>1714553139888</millis>
+  <nanos>534300</nanos>
+  <sequence>3</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>connectToClient</method>
+  <thread>1</thread>
+  <message>Listening port '64532'...</message>
+</record>
