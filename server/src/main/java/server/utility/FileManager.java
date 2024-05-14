@@ -129,7 +129,6 @@ public class FileManager {
             try(FileOutputStream fos = new FileOutputStream(file)) {
                 byte[] buffer = resultCSV.getBytes();
                 fos.write(buffer, 0, buffer.length);
-                Outputter.printLn("Collection saved successfully!");
 
             } catch (FileNotFoundException e) {
                 Outputter.printLn(e.getMessage());

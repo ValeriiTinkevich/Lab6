@@ -15,8 +15,8 @@ import java.util.Scanner;
 public class App {
     public static final String PS1 = "$ ";
     public static final String PS2 = "> ";
-    private static final int RECONNECTION_TIMEOUT = 5 * 1000;
-    private static final int MAX_RECONNECTION_ATTEMPTS = 3;
+    private static final int RECONNECTION_TIMEOUT = 5 * 2000;
+    private static final int MAX_RECONNECTION_ATTEMPTS = 6;
     private static String host;
     private static int port;
 
@@ -45,8 +45,7 @@ public class App {
 
 
     public static void main(String[] args) {
-        host = "localhost";
-        port = 54353;
+        if (!initializeConnectionAddress(args)) return;
         Scanner userScanner = new Scanner(System.in);
         UserHandler userHandler = new UserHandler(userScanner);
         Client client = new Client(userHandler, port, RECONNECTION_TIMEOUT, MAX_RECONNECTION_ATTEMPTS, host);

@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lab6.client:jar" />
+      <artifact name="lab6.client:jar2" />
+      <artifact name="lab6.server:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="473ae2ca-1144-4d8e-b31c-1474db1b31cf" name="Changes" comment="" />
+    <list default="true" id="473ae2ca-1144-4d8e-b31c-1474db1b31cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/client/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/client/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.log.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/server/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/utility/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/server/utility/FileManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +32,71 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/client">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/common">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/server">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lab6" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lab6" type="f1a62948:ProjectNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lab6" type="f1a62948:ProjectNode" />
+                <item name="client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lab6" type="f1a62948:ProjectNode" />
+                <item name="server" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lab6" type="f1a62948:ProjectNode" />
+                <item name="server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lab6" type="f1a62948:ProjectNode" />
+                <item name="server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="lab6" type="f1a62948:ProjectNode" />
+                <item name="server" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,8 +126,17 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Gradle.Build lab6.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6 [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6 [knows].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6 [shadowJar].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.lab6:client [:client:App.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6:client [fatJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6:client [jar].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.lab6:server [:server:App.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6:server [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6:server [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6:server [fatJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab6:server [jar].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -70,7 +162,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.server.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.App" />
       <module name="lab6.client.main" />
       <extension name="coverage">
@@ -96,16 +188,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab6:client [fatJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="fatJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="lab6:server [fatJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="fatJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="lab6:server [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.lab6:server [fatJar]" />
         <item itemvalue="Application.server.App" />
+        <item itemvalue="Gradle.lab6:client [fatJar]" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.lab6:server [jar]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
         <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
       </set>
     </attachedChunks>

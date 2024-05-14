@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2024-05-01T08:45:39.777458800Z</date>
-  <millis>1714553139777</millis>
-  <nanos>458800</nanos>
+  <date>2024-05-13T10:00:37.666593100Z</date>
+  <millis>1715594437666</millis>
+  <nanos>593100</nanos>
   <sequence>0</sequence>
   <logger>server.Server</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>Collection loaded successfully</message>
 </record>
 <record>
-  <date>2024-05-01T08:45:39.868064200Z</date>
-  <millis>1714553139868</millis>
-  <nanos>64200</nanos>
+  <date>2024-05-13T10:00:37.807865800Z</date>
+  <millis>1715594437807</millis>
+  <nanos>865800</nanos>
   <sequence>1</sequence>
   <logger>server.Server</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Starting the server...</message>
 </record>
 <record>
-  <date>2024-05-01T08:45:39.880254700Z</date>
-  <millis>1714553139880</millis>
-  <nanos>254700</nanos>
+  <date>2024-05-13T10:00:37.814283Z</date>
+  <millis>1715594437814</millis>
+  <nanos>283000</nanos>
   <sequence>2</sequence>
   <logger>server.Server</logger>
   <level>INFO</level>
@@ -38,9 +38,9 @@
   <message>The server has been successfully started.</message>
 </record>
 <record>
-  <date>2024-05-01T08:45:39.888534300Z</date>
-  <millis>1714553139888</millis>
-  <nanos>534300</nanos>
+  <date>2024-05-13T10:00:37.817805200Z</date>
+  <millis>1715594437817</millis>
+  <nanos>805200</nanos>
   <sequence>3</sequence>
   <logger>server.Server</logger>
   <level>INFO</level>
@@ -49,3 +49,40 @@
   <thread>1</thread>
   <message>Listening port '64532'...</message>
 </record>
+<record>
+  <date>2024-05-13T10:01:37.822863100Z</date>
+  <millis>1715594497822</millis>
+  <nanos>863100</nanos>
+  <sequence>4</sequence>
+  <logger>server.Server</logger>
+  <level>WARNING</level>
+  <class>server.Server</class>
+  <method>connectToClient</method>
+  <thread>1</thread>
+  <message>Connection timeout exceeded!</message>
+</record>
+<record>
+  <date>2024-05-13T10:01:37.824008700Z</date>
+  <millis>1715594497824</millis>
+  <nanos>8700</nanos>
+  <sequence>5</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.Server</class>
+  <method>stop</method>
+  <thread>1</thread>
+  <message>Shutting down the server...</message>
+</record>
+<record>
+  <date>2024-05-13T10:01:37.826539300Z</date>
+  <millis>1715594497826</millis>
+  <nanos>539300</nanos>
+  <sequence>6</sequence>
+  <logger>server.Server</logger>
+  <level>INFO</level>
+  <class>server.utility.CollectionManager</class>
+  <method>saveCollection</method>
+  <thread>1</thread>
+  <message>Collection saved successfully</message>
+</record>
+</log>
